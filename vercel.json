@@ -27,14 +27,14 @@
       "permanent": false
     },
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
-          "value": "neptik.tech"
+          "value": "neptikconnect.com"
         }
       ],
-      "destination": "https://neptik.com/:1",
+      "destination": "https://neptik.com/:path*",
       "permanent": true
     }
   ]
